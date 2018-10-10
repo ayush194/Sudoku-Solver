@@ -1,0 +1,5 @@
+# Ignore all executables
+*.out
+
+# Ignore all logs
+*.log
