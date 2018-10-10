@@ -5,7 +5,7 @@ A simple Sudoku+ Solver and Generator using MiniSAT. Built as assignment for Cou
 Larger Sudoku+ sizes can be solved as well with this sudoku-solver as long as the size is a perfect square and not too large to be limited by the computation speed of your PC.
 
 ## Dependencies
-You must have [MiniSAT](http://minisat.se/) installed on your system and accessible through command line. MiniSAT is an open-source [SAT Solver](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) and is available for free. OSX users can install is easily with [Homebrew](https://brew.sh/).
+You must have [MiniSAT](http://minisat.se/) installed on your system and accessible through command line. MiniSAT is an open-source [SAT Solver](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) and is available for free. OSX users can install it easily with [Homebrew](https://brew.sh/).
 ```bash
 brew install minisat
 ```
