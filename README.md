@@ -14,9 +14,9 @@ brew install minisat
 To run this sudoku+ solver, follw these steps :
 
 1. Make sure that minisat is installed on your system and accessible by command line with the command 'minisat'.
-2. Compile solver.cpp : ``g++ -std=c++11 solver.cpp ~o sudokusolver``
+2. Compile solvergen.cpp : ``g++ -std=c++11 solvergen.cpp ~o sudokusolver``
 3. Run the binary created : ``sudokusolver``
-4. Enter the full filename (e.g. sudokufile.txt) which contains the unsolved Sudoku+ at the prompt that appears. Note that this file should be in the same directory as solver.cpp.
+4. Enter the full filename (e.g. sudokufile.txt) which contains the unsolved Sudoku+ at the prompt that appears. Note that this file should be in the same directory as solvergen.cpp.
 5. The solved Sudoku+ is published in sudokusol.txt file.
 6. The SAT encoding of the given Sudoku+ is also published in sudokusat.txt file.
 7. The program also automatically generates a new Sudoku+ and publishes it in newsudoku.txt file.
