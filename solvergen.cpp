@@ -1,9 +1,10 @@
 /*
-SUDOKU+ SOLVER
 
-Authors : 
-Ayush Kumar (170195)
-Deepesh Kumar Lall (170236)
+SUDOKU+ SOLVER & GENERATOR
+
+Author : Ayush Kumar
+Created on 10/2/18
+
 */
 
 #include <iostream>
